@@ -1,0 +1,52 @@
+/* Ensure the body and html take up the full screen without scrolling */
+body {
+  margin: 0;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: 600%; /* Adjust this value as needed */
+  background-attachment: scroll;
+
+  
+}
+
+
+ h1 ,p {
+  font-size: 2rem;
+  margin-bottom: -250px;
+  text-align: center;
+  color: #fff;
+  padding: 150px;
+  pointer-events: none;
+  
+}
+h1{
+  font-size: 4rem;
+}
+
+
+button {
+  background-color: #00d1a0;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2px auto;
+  position: absolute;
+  top: 80%;
+  left: 48%;
+  /* Places the button behind other elements */
+}
+hr{
+  border-color: aliceblue;
+  width: 86rem;
+  margin:35rem 3rem;
+  padding-bottom: 0%;
+}
+
+
+button:hover {
+  background-color: #2bffe3;
+}
